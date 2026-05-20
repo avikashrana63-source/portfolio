@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avikash Rana | DevOps Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo" data-view="main">Avikash Rana</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active" data-view="main">Home</a></li>
+        <li><a href="#about" data-view="main">About</a></li>
+        <li><a href="#skills" data-view="main">Skills</a></li>
+        <li><a href="#projects" data-view="main">Projects</a></li>
+        <li><a href="#contact" data-view="main">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero main-section" id="home">
+    <div class="container hero-content">
+      <span class="hero-badge">Cloud Computing & DevOps Engineer</span>
+      <h1>Hi, I am Avikash Rana</h1>
+      <p>Aspiring DevOps Engineer focused on AWS, Linux, Docker, Kubernetes, Terraform, Ansible, Jenkins, Git, and automation.</p>
+      <div class="hero-buttons">
+        <a class="btn btn-primary" href="#contact" data-view="main">Contact Me</a>
+        <a class="btn btn-secondary" href="tel:+916230404874">Call Now</a>
+        <a class="btn btn-cv" href="Resume.pdf" download>Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section main-section" id="about">
+    <div class="container about-wrapper">
+      <div class="about-image-card">
+        <img src="https://via.placeholder.com/360x390/1e293b/38bdf8?text=Avikash+Rana" alt="Avikash Rana profile placeholder" />
+      </div>
+      <div class="about-text">
+        <h3>About Me</h3>
+        <p>I am gaining hands-on DevOps training at CS Soft Solutions and building practical experience with cloud platforms, CI/CD workflows, automation, and infrastructure tools.</p>
+        <p>My goal is to grow as a skilled DevOps Engineer by applying cloud, Linux, CI/CD, containerization, and infrastructure-as-code skills to real-world projects.</p>
+        <div class="profile-links">
+          <a class="linkedin-btn" href="https://www.linkedin.com/in/avikash-rana-389694383/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
+        <div class="about-highlights">
+          <div><h4>Current Focus</h4><p>AWS, automation, CI/CD, containers, and cloud infrastructure.</p></div>
+          <div><h4>Learning Style</h4><p>Hands-on labs, real-world projects, and continuous improvement.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section main-section" id="skills">
+    <div class="container">
+      <div class="section-title"><span>Skills</span><h2>Technical Expertise</h2></div>
+      <div class="skill-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn" data-filter="devops">DevOps</button>
+        <button class="filter-btn" data-filter="containers">Containers</button>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" data-category="cloud"><div class="skill-icon">☁️</div><h3>AWS Cloud</h3><p>EC2, S3, IAM, VPC, CloudFront, Lambda, CloudWatch, and cloud infrastructure basics.</p></div>
+        <div class="skill-card" data-category="devops"><div class="skill-icon">🐧</div><h3>Linux Administration</h3><p>Commands, SSH, networking, package management, users, permissions, and troubleshooting.</p></div>
+        <div class="skill-card" data-category="containers"><div class="skill-icon">🐳</div><h3>Docker</h3><p>Images, containers, Dockerfile, Docker Compose, port mapping, and container deployment.</p></div>
+        <div class="skill-card" data-category="containers"><div class="skill-icon">☸️</div><h3>Kubernetes</h3><p>Pods, Deployments, Services, scaling, YAML manifests, and orchestration fundamentals.</p></div>
+        <div class="skill-card" data-category="devops"><div class="skill-icon">🔁</div><h3>CI/CD</h3><p>Jenkins pipelines, GitHub integration, webhooks, build automation, and deployments.</p></div>
+        <div class="skill-card" data-category="devops"><div class="skill-icon">🧱</div><h3>IaC & Automation</h3><p>Terraform provisioning, Ansible playbooks, inventory, variables, outputs, and state management.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section main-section" id="projects">
+    <div class="container">
+      <div class="section-title"><span>Projects</span><h2>Hands-on Work</h2></div>
+      <div class="project-grid">
+        <div class="project-card"><h3>AWS Static Website Hosting</h3><p>Hosted a static website with Amazon S3 and CloudFront using Terraform-based infrastructure setup.</p></div>
+        <div class="project-card"><h3>CI/CD Pipeline Automation</h3><p>Built an automated build and deployment workflow using Jenkins, GitHub, and Docker.</p></div>
+        <div class="project-card"><h3>File Upload Notification System</h3><p>Created an AWS S3 upload notification workflow using Lambda, SNS, IAM, and CloudWatch.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section main-section" id="contact">
+    <div class="container">
+      <div class="section-title"><span>Contact</span><h2>Get In Touch</h2></div>
+      <div class="contact-details">
+        <h3>Contact Details</h3>
+        <p class="contact-intro">Click any option below to call, email, open LinkedIn, download my contact card, or send a message.</p>
+        <div class="contact-info-grid">
+          <a class="contact-info-card" href="tel:+916230404874" aria-label="Call Avikash Rana">
+            <span class="contact-icon">📞</span><span>Mobile</span><strong>+91 6230404874</strong>
+          </a>
+          <a class="contact-info-card" href="mailto:avikashr093@gmail.com" aria-label="Email Avikash Rana">
+            <span class="contact-icon">✉️</span><span>Email</span><strong>avikashr093@gmail.com</strong>
+          </a>
+          <a class="contact-info-card" href="avikash-rana-contact.vcf" download aria-label="Save Avikash Rana contact">
+            <span class="contact-icon">👤</span><span>Save Contact</span><strong>Add to Phone Contacts</strong>
+          </a>
+          <a class="contact-info-card" href="https://www.linkedin.com/in/avikash-rana-389694383/" target="_blank" rel="noopener" aria-label="Open LinkedIn profile">
+            <span class="contact-icon">🔗</span><span>LinkedIn</span><strong>Connect With Me</strong>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message to My Email</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container"><p>© 2026 Avikash Rana. All rights reserved.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
